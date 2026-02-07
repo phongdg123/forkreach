@@ -27,8 +27,12 @@
 </div>
 <br />
 
+## Getting started & staying tuned with us.
+
+Star us, and you will receive all release notifications from GitHub without any delay!
+
 <div align="center">
-<img src="./demo.gif" style="width: 100%"/>
+<img src="./star.gif" style="width: 100%"/>
 </div>
 
 ---
