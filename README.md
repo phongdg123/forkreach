@@ -1,8 +1,35 @@
-# ForkReach
+<div align="center">
 
-**Multi-AI Marketing Agent for Indie Hackers**
+<h1 style="border-bottom: none">
+    <b>ForkReach</b><br />
+    Multi-AI Marketing Agent for Indie Hackers
+</h1>
 
-ForkReach is a conversational AI platform that provides specialized marketing agents to help indie hackers and startups with their marketing needs. Powered by Google's Gemini AI, it offers intelligent agents for various marketing tasks including Twitter content, email marketing, landing page copy, and product launch strategies.
+<img alt="ForkReach Demo" src="./demo.gif" style="width: 100%">
+
+<br/>
+<p align="center">
+  A conversational AI platform with specialized marketing agents for indie hackers and startups.<br />
+  Powered by Google's Gemini AI for Twitter content, email marketing, landing pages & launch strategies.
+</p>
+
+<br/>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
+[![Next.js 16](https://img.shields.io/badge/Next.js-16-black.svg)](https://nextjs.org/)
+
+</div>
+
+<br />
+<div align="center">
+<em>Your AI-powered marketing team, available 24/7.</em>
+</div>
+<br />
+
+<div align="center">
+<img src="./demo.gif" style="width: 100%"/>
+</div>
 
 ---
 
