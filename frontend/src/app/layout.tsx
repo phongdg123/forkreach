@@ -20,8 +20,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Stitch - Design Tool",
-  description: "Create beautiful designs with AI",
+  title: "ForkReach",
+  description: "AI Marketing Agent",
 };
 
 export default function RootLayout({
