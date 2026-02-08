@@ -25,7 +25,7 @@ export function Header({ onMenuClick, showMenuButton = false }: HeaderProps) {
                 )}
                 {/* Logo */}
                 <div className="flex items-center gap-2">
-                    <span className="text-lg md:text-xl font-semibold text-zinc-900 dark:text-white">Stitch</span>
+                    <span className="text-lg md:text-xl font-semibold text-zinc-900 dark:text-white">ForkReach</span>
                     <span className="hidden sm:inline text-xs bg-zinc-200 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-300 px-2 py-0.5 rounded-full">
                         BETA
                     </span>
